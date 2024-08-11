@@ -4,17 +4,17 @@
 
 @font-face {
     font-family: gilroyb;
-    src: url(/Gilroy-FREE/Gilroy-FREE/Gilroy-ExtraBold.otf);
+    src: url(assets/Gilroy-FREE/Gilroy-ExtraBold.otf);
 
 }
 @font-face {
     font-family: gilroy;
-    src: url(/Gilroy-FREE/Gilroy-FREE/Gilroy-Light.otf);
+    src: url(assets/Gilroy-FREE/Gilroy-Light.otf);
 }
 
 @font-face {
     font-family: source;
-    src: url(/Source_Serif_4/SourceSerif4-VariableFont_opsz\,wght.ttf);
+    src: url(assets/Source-font/SourceSerif4-VariableFont_opsz\,wght.ttf);
 }
 *{
     margin: 0;
