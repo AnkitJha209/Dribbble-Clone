@@ -1,0 +1,113 @@
+/* Existing styles remain unchanged */
+
+/* Mobile styles */
+@media screen and (max-width: 767px) {
+    /* Adjust the padding in the hero section */
+    #hero-section {
+        padding: 5vh 10vh;
+    }
+
+    /* Reduce font sizes for smaller screens */
+    #hero-section h1 {
+        font-size: 8vh;
+    }
+
+    #hero-section h2 {
+        font-size: 8vh;
+    }
+
+    #hero-section h4 {
+        font-size: 2.5vh;
+    }
+
+    .nav-part2 input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .nav-part2 .login,
+    .nav-part2 .sign {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .nav-part1 .logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+
+
+    .nav-part1 {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-part1> h4{
+        display: none;
+    }
+    .nav-part2 > i{
+        display: block;
+    }
+
+    .nav-part1 .display-card1{
+        display: none;
+    }
+
+    .nav-part2 input,.login,.sign{
+        display: none;
+    }
+
+    #page2 .cards {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+
+
+/* Tablet styles */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    /* Adjust the padding in the hero section */
+    #hero-section {
+        padding: 5vh 15vh;
+    }
+
+    /* Reduce font sizes for tablets */
+    #hero-section h1 {
+        font-size: 10vh;
+    }
+
+    #hero-section h2 {
+        font-size: 10vh;
+    }
+
+    #hero-section h4 {
+        font-size: 3vh;
+    }
+
+    /* Adjust the layout of navigation */
+    #nav-part1 {
+        gap: 2vw;
+    }
+    #nav-part1> h4{
+        display: none;
+    }
+
+    #nav-part2 input {
+        width: 50%;
+    }
+
+    .marque{
+        margin-left: 9vw
+    }
+    
+    #page2 .cards {
+        width: 45%;
+        margin-bottom: 20px;
+        
+    }
+}
+
+
