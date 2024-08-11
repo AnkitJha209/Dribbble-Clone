@@ -1,0 +1,1 @@
+In this project, I designed and developed a responsive web page inspired by the Dribbble platform. The site features various sections, including a hero banner, a portfolio showcase, and navigation elements, all crafted to provide a seamless user experience. This project highlights my ability to create visually appealing and functional web pages using only HTML and CSS.
